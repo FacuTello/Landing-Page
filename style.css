@@ -66,4 +66,16 @@ header{
 
 .div-snippets{
     width: 325px;
+    text-align: center;
+}
+.div-logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 110px;
+    
+}
+.logo{
+    width: 120px;
+    margin: 30px;
 }
