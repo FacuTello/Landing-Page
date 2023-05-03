@@ -1,4 +1,4 @@
-@media (max-width: 375px) {
+
 
 body{
     margin: 0;
@@ -72,7 +72,6 @@ header{
     flex-direction: column;
     align-items: center;
     margin-bottom: 50px;
-
 }
 
 .image-computer{
@@ -124,7 +123,8 @@ footer{
     justify-content: center;
 }
 
-}
+
+
 
 @media (min-width: 376px) {
 
@@ -223,5 +223,6 @@ footer{
     }
     .last-link-footer{
         margin-bottom: 50px;
+        margin-left: 20px;
     }
 }
