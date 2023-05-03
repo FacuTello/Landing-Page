@@ -120,7 +120,7 @@ footer{
     justify-content: center;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 375px) {
 
     header{
         background-image: url(images/bg-header-desktop.png);
@@ -154,6 +154,8 @@ footer{
     }
     .text-p{
         font-size: 18px;
+        
+
     }
     .div-desktop{
         display: grid;
@@ -167,15 +169,55 @@ footer{
     }
     #desktop-text{
         font-size: 25px;
+        text-align: left;
+        margin-left: 20px;
     }
     .div-desktop-text{
         width: 300px;
         display: inline-block;
         text-align-last: start;
     }
-    #text-p-desktop{
-      font-size: 15px;
-      text-align: left;
+    
+    .text-h2-2{
+        font-size: 35px;
     }
+    #div-svgs{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #text-h2-desktop{
+        font-size: 25px;
+    }
+    .svg-text{
+       text-align: center;
+    }
+    #text-p-desktop{
+        width: 400px;
+        font-size: 18px;
+        margin: 20px;
+        text-align: left;
+    }
+
+    .div-logos{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .logo{
+        width: 150px;
+        margin: 50px;
+    }
+    .div-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .div-icons{
+       margin-left: 300px;
+    }
+    .last-link-footer{
+        margin-bottom: 50px;
+    }
+   
     
 }
